@@ -69,12 +69,10 @@ a:hover{
     align-items: center;
     justify-content: center;
     height: 100vh;
-
     position: relative;
     width: 100%;
 }
 .overlay{
-
     position: absolute;
     display: flex;
     align-items: center;

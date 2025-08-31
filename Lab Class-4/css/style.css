@@ -1,39 +1,38 @@
-p::first-line{
-    color:green;
+p::first-line {
+  color: rgb(249, 37, 51);
 }
-.upperpart{
-display: flex;
+.upperpart {
+  display: flex;
 }
-.picture{
-    background-position: right top;
-    /* background: #ffffff url("img_tree.png") no-repeat right top; */
-    /* shorthand property */
+.picture {
+  background-position: right top;
+  /* background: #ffffff url("img_tree.png") no-repeat right top; */
+  /* shorthand property */
 }
-.margin p{
-    margin-top: 90px;
-    /* margin-left: 20px ; */
-    border: 5px solid red;
-padding: 70px 60px 50px 70px;
-width: 200px;
-height: 100px;
-background-color: aquamarine;
-}
-.navbar{
-    display: flex;
-    gap:60px;
-    padding:20px;
-  width: 200%;
+.margin p {
+  margin-top: 90px;
+  /* margin-left: 20px ; */
+  border: 3px solid red;
+  padding: 70px 60px 50px 70px;
+  width: 200px;
   height: 100px;
- margin-top: 20px;
- background-color: rgb(233, 135, 135);
- align-items: center;
+  background-color: aquamarine;
+}
+.navbar {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  background-color: rgb(233, 135, 135);
+  align-items: center;
 }
 .navbar li {
-   margin-left: 90px;
-list-style: none;
+  margin-left: 90px;
+  list-style: none;
 }
-.navbar li a{
-    text-decoration: none;
-    font-size:30px;
-
+.navbar li a {
+  text-decoration: none;
+  font-size: 30px;
 }

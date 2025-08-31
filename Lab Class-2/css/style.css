@@ -1,5 +1,5 @@
 body{
-    background-image:url('/Lab\ Class-2/images/scenery.jpg');
+    background-image:url('/Lab\ Class-2/images/sunpic.jpg');
     /*font-family: 'Courier New', Courier, monospace;
     text-align: justify;*/
      background-repeat: no-repeat; 
@@ -8,30 +8,27 @@ body{
 }
 
 p {
-  background-color: blueviolet;
+  background-color: rgb(118, 93, 220);
   font-family: "Times New Roman", Times, serif;
   color: bisque;
   text-align: justify;
 }
 a:link {
-    color: green;
+    color: rgb(51, 27, 13);
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
    
   }
-  
   a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
-  
   a:active {
     color: yellow;
     background-color: transparent;
@@ -40,5 +37,5 @@ a:link {
  img{
   /* display: block ;
    margin: auto;*/
-   float: right;
+   float:right;
  }

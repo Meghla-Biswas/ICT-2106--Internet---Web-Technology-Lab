@@ -1,0 +1,44 @@
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 60px;
+    background-color: black;
+    padding: 5px 0px ;
+    gap: 40px;
+
+}
+.leftpart a,.rightpart a{
+color: white;
+margin-top: 5px;
+align-items: center;
+gap: 20px;
+font-size: 20px;
+
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100px;
+ background-color: beige;
+}
+.nav a{
+    text-decoration: none;
+ text-align: center;
+ align-items: center;
+ padding: 25px;
+ color: black;
+ font-size: 20px;
+ 
+}
+/* body{
+    background: url(/Lab\Exam/picture/istockphoto-1402700291-612x612.jpg);
+} */
+
+
+
+
