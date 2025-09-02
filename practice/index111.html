@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style111.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <h1>Kiddy</h1>
+      </div>
+      <div class="nav-right">
+        <h3>Time: 9am to 5pm</h3>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+      </div>
+    </nav>
+    <div class="container1">
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Time</a>
+      </div>
+
+      <div class="logo">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="body">
+      <h1>Bring Fun Life To your Kinds</h1>
+      <button type="button" class="btn btn-danger m-lg-3">See More</button>
+      <button type="button" class="btn btn-danger btn-outline-dark m-lg-3">
+        See More
+      </button>
+    </div>
+    <div class="container-row">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="containerCard">
+            <div class="cardimg">
+              <img src="picture/mountain.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                cum deleniti ipsum velit accusantium tenetur voluptatibus fugit
+                totam tempora numquam?
+              </p>
+              <button type="button" class="btn btn-outline-danger">
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="containerCard">
+            <div class="cardimg">
+              <img src="picture/mountain.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                cum deleniti ipsum velit accusantium tenetur voluptatibus fugit
+                totam tempora numquam?
+              </p>
+              <button type="button" class="btn btn-outline-danger">
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="containerCard">
+            <div class="cardimg">
+              <img src="picture/mountain.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                cum deleniti ipsum velit accusantium tenetur voluptatibus fugit
+                totam tempora numquam?
+              </p>
+              <button type="button" class="btn btn-outline-danger">
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="containerCard">
+            <div class="cardimg">
+              <img src="picture/mountain.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                cum deleniti ipsum velit accusantium tenetur voluptatibus fugit
+                totam tempora numquam?
+              </p>
+              <button type="button" class="btn btn-outline-danger">
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="custom-card">
+            <div class="icon-circle">
+              <i class="fas fa-book"></i>
+            </div>
+            <h5>Courses</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="custom-card">
+            <div class="icon-circle">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h5>Events</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="custom-card">
+            <div class="icon-circle">
+              <i class="fa-solid fa-image"></i>
+            </div>
+            <h5>Gallery</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="custom-card">
+            <div class="icon-circle">
+              <i class="fas fa-newspaper"></i>
+            </div>
+            <h5>News</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-danger" onclick="paraclick()">
+      paragraph
+    </button>
+
+    <button type="button" class="btn btn-outline-dark" onmouseover="image()">
+      image
+    </button>
+
+    <button type="button" class="btn btn-outline-dark" onclick="add()">
+      Add
+    </button>
+    <button type="button" class="btn btn-outline-dark" onclick="remove()">
+      Remove
+    </button>
+    <button type="button" class="btn btn-outline-dark" onmouseover="next()">
+      Next
+    </button>
+
+    <button type="button" class="btn btn-outline-dark" onclick="prev()">
+      Previous
+    </button>
+    <button type="button" class="btn btn-outline-dark" onclick="after()">
+      after
+    </button>
+    <p id="paraClass">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat placeat
+      neque harum perferendis repellendus. Maiores ipsa voluptatibus tempora nam
+      iste.
+    </p>
+    <img id="imgID" alt="" width="200px" height="200px" />
+    <img
+      id="imgmoreID"
+      src="picture/kids.jpg"
+      alt=""
+      width="200px"
+      height="200px"
+    />
+    <p id="stylepara">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum,
+      quibusdam. Necessitatibus incidunt dolores magnam explicabo sapiente rerum
+      quo deleniti voluptatibus?
+    </p>
+    <script type="text/javascript" src="js/index1.js"></script>
+  </body>
+</html>

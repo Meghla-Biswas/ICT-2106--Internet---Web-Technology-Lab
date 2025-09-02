@@ -167,10 +167,11 @@ switch (t) {
 // substraction(a,b);
 
 //IFFES function
-(function SubAnswer(a, b) {
-  function substraction(a, b) {
+ function substraction(a, b) {
     return a - b;
   }
+(function SubAnswer(a, b) {
+ 
   document.writeln(
     "</br> <span style='color:red;'>" + substraction(a, b) + "</span>"
   );

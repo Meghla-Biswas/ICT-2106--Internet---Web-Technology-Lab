@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/practice);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: bisque;
+
+
+}
+.navbar .nav-left{
+    /* margin-left: 20px;
+    margin-top: 7px; */
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+
+}
+.navbar .nav-right{
+    justify-content: space-between;
+    display: flex;
+    gap:20px;
+    padding:10px 20px ;
+
+}
+.navbar .nav-right h3{
+    font-size: 20px;
+}
+
+.navbar .nav-right a{
+    font-size: 20px;
+    transition: 0.5s;
+}
+.navbar .nav-right a:hover{
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    transform: scale(1.3) translateY(-8px);
+}
+
+.container1{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 45px;
+  border: 1px solid black;
+  border-radius: 70px;
+  width: 80%;
+  margin-top: 38px;
+  margin-left: 80px;
+
+}
+.container1 .links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.container1 .logo a{
+    color: black;
+    margin-right: 20px;
+    font-size :18px; 
+
+}
+.body{
+    /* margin-top: 70px;
+    margin-left: 30px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.containerCard{
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+ border: 1px solid black;
+
+}
+.container-row{
+    display: flex;
+    justify-content: center;
+ 
+
+    flex-wrap: wrap;
+}
+.cardimg img {
+    object-fit: cover;
+    height: 200px;
+    width: 400px;
+}
+.container-row .row .col-md-4{
+    gap: 15px;
+}
+
+.custom-card {
+  background: #e0e0e0;   
+  text-align: center;
+  padding: 50px 20px 20px;  
+  border-radius: 8px;
+  position: relative;
+  margin-top: 200px;
+  transition: 0.3s ease;
+}
+
+.custom-card:hover {
+  background: #d4d4d4;  /* hover এ color change */
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background: white;
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: absolute;
+  top: -35px;   
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.custom-card h5 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.stylepara{
+    font-size: 25px;
+    color: aqua;
+}

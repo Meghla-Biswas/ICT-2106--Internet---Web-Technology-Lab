@@ -37,7 +37,7 @@ student.push({    roll :2345,
     year : "2nd",
        section:"2022-2023",
 
-})
+});
 
 document.writeln("</br><b>"+"New result"+"<br/></b>");
 

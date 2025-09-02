@@ -1,4 +1,4 @@
-
+//object
 var student1 = {
   name: "Meghla",
   roll: 2006,
@@ -80,6 +80,7 @@ var pTags = document.getElementsByTagName("p");
 for (var i = 0; i < pTags.length; i++) {
   pTags[i].innerHTML = "<span style='color:red;'>" + pTags[i].innerHTML + "</span>";
 }
+pTags[0].innerHTML= " Meghla Biswas Smita";
 
 // Another Student Constructor
 // function Stud(name, age, roll) {
